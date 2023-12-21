@@ -1,0 +1,44 @@
+/* The page height is same as the screen height */
+body{
+    height:100svh
+}
+
+.sprite-container{
+    height: 60%;
+    border: 2px solid black;
+    position:relative;
+}
+
+.player-sprite{
+    position: absolute;
+    left:10%;
+    bottom:5%;
+    /* width of sprite */
+    width:20%
+}
+
+.monster-sprite{
+    position: absolute;
+    right:10%;
+    bottom:5%;
+     /* width of sprite */
+    width:20%;
+    transform:rotatey(180deg)
+}
+
+#monster-1{
+    right:10%;
+}
+
+#monster-2{
+    right:20%;
+}
+
+#monster-3{
+    right:30%;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
